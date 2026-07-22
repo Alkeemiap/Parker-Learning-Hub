@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Parker Learning Hub — Family Connection</title>
+<meta name="description" content="This week's message, vocabulary, homework, and resources for families in Mr. Parker's Grade 5 ELA classroom.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="family">
+
+  <header class="site-nav" data-slot="nav"></header>
+
+  <section class="hero" data-slot="hero"></section>
+
+  <main class="container">
+
+    <div class="section">
+      <div class="card message-card reveal">
+        <div class="card-head"><div class="chip teal"><span data-icon="heart" data-icon-size="19"></span></div><h3>Message from Mr. Parker</h3></div>
+        <div data-slot="message"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">At a Glance</span><h2>This Week We Are Learning</h2></div></div>
+      <div class="card reveal" data-slot="this-week"></div>
+    </div>
+
+    <div class="grid grid-2 section">
+      <div class="card reveal">
+        <div class="card-head"><div class="chip gold"><span data-icon="chat" data-icon-size="19"></span></div><h3>Conversation Starters</h3></div>
+        <div data-slot="conversation-starters"></div>
+      </div>
+      <div class="card reveal">
+        <div class="card-head"><div class="chip navy"><span data-icon="book" data-icon-size="19"></span></div><h3>Reading at Home</h3></div>
+        <div data-slot="reading-home"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Vocabulary</span><h2>Weekly Vocabulary</h2></div></div>
+      <div class="card reveal" data-slot="vocab"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Calendar</span><h2>Homework & Important Dates</h2></div></div>
+      <div class="card reveal" data-slot="important-dates"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Celebrate</span><h2>Classroom Celebrations</h2></div></div>
+      <div class="card reveal" data-slot="celebrations"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Stay Connected</span><h2>Family Resources</h2></div></div>
+      <div data-slot="resources"></div>
+    </div>
+
+  </main>
+
+  <footer data-slot="footer"></footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

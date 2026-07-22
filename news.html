@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Parker Learning Hub — Classroom News</title>
+<meta name="description" content="Newsletter, upcoming events, and classroom photos from Mr. Parker's Grade 5 ELA classroom.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="news">
+
+  <header class="site-nav" data-slot="nav"></header>
+
+  <section class="hero" data-slot="hero"></section>
+
+  <main class="container">
+
+    <div class="grid grid-2 section">
+      <div class="card feed-card reveal" data-slot="newsletter"></div>
+      <div class="card reveal">
+        <div class="card-head"><div class="chip gold"><span data-icon="megaphone" data-icon-size="19"></span></div><h3>Announcements</h3></div>
+        <div data-slot="announcements"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Save the Date</span><h2>Upcoming Events</h2></div></div>
+      <div class="card reveal" data-slot="events"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Gallery</span><h2>Anchor Charts</h2></div></div>
+      <div data-slot="photos-anchor"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Gallery \u00B7 Names Removed</span><h2>Student Work</h2></div></div>
+      <div data-slot="photos-work"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div><span class="eyebrow">Gallery</span><h2>Learning Stations</h2></div></div>
+      <div data-slot="photos-stations"></div>
+    </div>
+
+    <div class="grid grid-2 section">
+      <div class="card reveal">
+        <div class="card-head"><div class="chip navy"><span data-icon="mappin" data-icon-size="19"></span></div><h3>Field Trip</h3></div>
+        <div data-slot="field-trip"></div>
+      </div>
+      <div class="card reveal">
+        <div class="card-head"><div class="chip green"><span data-icon="book" data-icon-size="19"></span></div><h3>Reading Challenge</h3></div>
+        <div data-slot="reading-challenge"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer data-slot="footer"></footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

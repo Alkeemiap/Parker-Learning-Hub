@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Parker Learning Hub — Instructional Brief</title>
+<meta name="description" content="Today's instruction, standards, and learning stations for Mr. Parker's Grade 5 ELA classroom.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="brief">
+
+  <header class="site-nav" data-slot="nav"></header>
+
+  <section class="hero" data-slot="hero"></section>
+
+  <main class="container">
+
+    <div class="section">
+      <div class="section-head">
+        <div><span class="eyebrow">Curriculum Overview</span><h2>Weekly Instructional Brief</h2></div>
+      </div>
+      <div class="card reveal" data-slot="curriculum-overview"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div><span class="eyebrow">Today's Instruction</span><h2>What's happening in class today</h2></div>
+      </div>
+      <div class="card reveal" data-slot="today-instruction"></div>
+    </div>
+
+    <div class="grid grid-2 section">
+      <div class="card reveal">
+        <div class="card-head"><div class="chip gold"><span data-icon="target" data-icon-size="19"></span></div><h3>Today's Exit Ticket</h3></div>
+        <div data-slot="exit-ticket"></div>
+      </div>
+      <div class="card reveal">
+        <div class="card-head"><div class="chip navy"><span data-icon="check-circle" data-icon-size="19"></span></div><h3>What Visitors Should See</h3></div>
+        <div data-slot="visitors-see"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div><span class="eyebrow">Rotations</span><h2>Student Learning Stations</h2></div>
+      </div>
+      <div class="grid grid-5" data-slot="stations"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div><span class="eyebrow">Dashboard</span><h2>Attendance Goal</h2></div>
+      </div>
+      <div class="card reveal" data-slot="attendance"></div>
+    </div>
+
+  </main>
+
+  <footer data-slot="footer"></footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
